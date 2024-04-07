@@ -56,6 +56,12 @@ form {
     display: flex;
     flex-direction: column;
     margin: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }
 
 form h2 {
@@ -83,6 +89,7 @@ form button {
 
 .cookpot-box{
     display: flex;
+    font-family: 'Roboto', sans-serif;
     background-color: rgba(225, 225, 225, .9);
     height: 20rem;
     width: 21rem;

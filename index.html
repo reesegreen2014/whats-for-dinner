@@ -16,22 +16,26 @@
         <form>
           <h2>What are you looking for?</h2>
           <label>
-            <input type="radio" name="looking_for">Side
+            <input type="radio" name="looking_for" value="Side">Side
           </label>
           <label>
-            <input type="radio">Main Dish
+            <input type="radio" name="looking_for" value="Main Dish">Main Dish
           </label>
           <label>
-            <input type="radio">Dessert
+            <input type="radio" name="looking_for" value="Dessert">Dessert
           </label>
           <label>
-            <input type="radio">Entire Meal
+            <input type="radio" name="looking_for" value="Entire Meal">Entire Meal
           </label>
           <button id="lets-cook">LET'S COOK!</button>
         </form>
       </section>
       <section class="cookpot-box">
-        <img class="cookpot-image" src="assets/cookpot.svg" alt="overflowing pot">
+        <section class="hidden"> 
+          <p>You should make:</p>
+          <h2 class="selected-type-of-meal"></h2>
+        </section>
+        <img class="cookpot-image" id="cookpot-image" src="assets/cookpot.svg" alt="overflowing pot">
       </section>
     </div>
    </main>
